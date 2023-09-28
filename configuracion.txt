@@ -1,0 +1,16 @@
+base link: 
+https://docs.python-telegram-bot.org/en/v20.5/
+
+tutorial 1:
+https://github.com/python-telegram-bot/python-telegram-bot/wiki/Introduction-to-the-API#beyond-the-pure-api
+tutorial 2:
+https://github.com/python-telegram-bot/python-telegram-bot/wiki/Extensions---Your-first-Bot
+
+
+BOT:
+t.me/PanaAutosBot. 
+
+TOKEN:
+Use this token to access the HTTP API:
+6528642672:AAEBweExhh5x5jZCkQEzVkrRyi6k6gIc1Ic
+
