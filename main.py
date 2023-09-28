@@ -1,25 +1,24 @@
-import asyncio
-import telegram
+import logging
+from telegram import Update
+from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler
 
 from constants import TOKEN
 
-# async def main():
-#     bot= telegram.Bot(TOKEN)
-#     async with bot:
-#         print(await bot.get_me())
-
-# async def main():
-#     bot= telegram.Bot(TOKEN)
-#     async with bot:
-#         print((await bot.get_updates()))  # this results a tuple each updata is numbered
-
-async def main():
-    bot= telegram.Bot(TOKEN)
-    async with bot:
-        await bot.send_message(text="first message", chat_id=821915079)
+logging.basicConfig(
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    level=logging.INFO
+)
 
 
+async def start(update: Update, context:ContextTypes.DEFAULT_TYPE):
+    await context.bot.send_message(chat_id=update.effective_chat.id,text="return answer to start command")
 
 
-if __name__=="__main__":
-    asyncio.run(main())
+application=ApplicationBuilder().token(TOKEN).build()
+start_handler = CommandHandler('start', start)
+application.add_handler(start_handler)
+application.run_polling()
+
+
+
+
