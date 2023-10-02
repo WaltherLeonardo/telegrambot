@@ -7,6 +7,10 @@ tutorial 2:
 https://github.com/python-telegram-bot/python-telegram-bot/wiki/Extensions---Your-first-Bot
 
 
+inlinebutton:
+https://docs.python-telegram-bot.org/en/v20.5/examples.inlinekeyboard.html
+
+
 BOT:
 t.me/PanaAutosBot. 
 
