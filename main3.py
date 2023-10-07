@@ -1,10 +1,9 @@
 import logging
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
+from telegram import Update
 from telegram.ext import (
     Application,
     CallbackQueryHandler,
     CommandHandler,
-    ContextTypes,
     ConversationHandler,
 )
 
@@ -16,12 +15,8 @@ logging.basicConfig(
 )
 logging.getLogger("httpx").setLevel(logging.WARNING)
 
-logging.basicConfig(
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
-)
-logging.getLogger("httpx").setLevel(logging.WARNING)
 
-logger = logging.getLogger(__name__)
+#logger = logging.getLogger(__name__)
 
 START_ROUTES, END_ROUTES = range(2)
 ONE, TWO, THREE, FOUR = range(4)

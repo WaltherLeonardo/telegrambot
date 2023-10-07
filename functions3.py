@@ -2,9 +2,6 @@ import logging
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import (
-    Application,
-    CallbackQueryHandler,
-    CommandHandler,
     ContextTypes,
     ConversationHandler,
 )
@@ -14,7 +11,6 @@ logger = logging.getLogger(__name__)
 
 START_ROUTES, END_ROUTES = range(2)
 ONE, TWO, THREE, FOUR = range(4)
-
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
     user = update.message.from_user
@@ -39,7 +35,7 @@ async def start_over(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
         ]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
-    await query.edit_message_text(text="Start handler, Choose a route", reply_markup=reply_markup)
+    await query.edit_message_text(text="Start handler, Choose AA route", reply_markup=reply_markup)
     return START_ROUTES
 
 async def one(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
