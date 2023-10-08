@@ -1,7 +1,7 @@
 import logging
 from telegram.ext import filters, ApplicationBuilder, CommandHandler, MessageHandler, InlineQueryHandler
 
-from constants import TOKEN
+from test2.constants import TOKEN
 from functions import start, echo, caps, inline_caps, unknown
 
 # This part is for setting up logging module,

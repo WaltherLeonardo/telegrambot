@@ -16,7 +16,12 @@ handlers:
 https://docs.python-telegram-bot.org/en/v20.6/telegram.ext.handlers-tree.html
 
 
+type of handlers:
+https://github.com/python-telegram-bot/python-telegram-bot/wiki/Types-of-Handlers
 
+
+code examples:
+https://github.com/python-telegram-bot/python-telegram-bot/wiki/Code-snippets
 
 BOT:
 t.me/PanaAutosBot. 

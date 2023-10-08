@@ -3,7 +3,7 @@ from telegram import  Update
 from telegram.ext import Application, CallbackQueryHandler, CommandHandler
 
 from functions2 import start, button, help_command
-from constants import TOKEN
+from test2.constants import TOKEN
 
 # Enable logging
 logging.basicConfig(

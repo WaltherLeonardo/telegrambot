@@ -8,7 +8,7 @@ from telegram.ext import (
 )
 
 from functions3 import start, start_over, one, two, three, four, end
-from constants import TOKEN
+from test2.constants import TOKEN
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
