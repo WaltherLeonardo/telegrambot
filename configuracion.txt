@@ -23,6 +23,24 @@ https://github.com/python-telegram-bot/python-telegram-bot/wiki/Types-of-Handler
 code examples:
 https://github.com/python-telegram-bot/python-telegram-bot/wiki/Code-snippets
 
+
+deployments:
+https://github.com/python-telegram-bot/python-telegram-bot/wiki/Where-to-host-Telegram-Bots
+https://seminar.io/2018/09/03/building-serverless-telegram-bot/
+https://nullonerror.org/2021/01/08/hosting-telegram-bots-on-google-cloud-run/
+
+Build, deploy and host a Telegram Bot on Google Cloud Functions for free using Python:
+https://www.youtube.com/watch?v=jzwMzUAAOWk
+
+How To Host Your Bot Online 24/7 For FREE With Python (Telegram, Discord, Etc):
+https://www.youtube.com/watch?v=2TI-tCVhe9k
+
+
+libraries:
+pip install python-telegram-bot --upgrade
+pip install Office365-REST-Python-Client
+pip install nest_asyncio   (big fat hack)
+
 BOT:
 t.me/PanaAutosBot. 
 
