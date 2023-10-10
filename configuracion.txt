@@ -40,6 +40,9 @@ libraries:
 pip install python-telegram-bot --upgrade
 pip install Office365-REST-Python-Client
 pip install nest_asyncio   (big fat hack)
+pip install openpyxl
+pip install pandas
+pip install xlrd
 
 BOT:
 t.me/PanaAutosBot. 
